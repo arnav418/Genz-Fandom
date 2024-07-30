@@ -55,7 +55,7 @@
 }
 
 #img-1{
-    background-image: url(Photos/marvel-captain-america-minimalist-wallpaper.jpg);
+    background-image: url(./Photos/marvel-captain-america-minimalist-wallpaper.jpg);
     background-position: top;
     height: 350px;
     transition: 1s;
@@ -70,20 +70,20 @@
 
 
 #img-2{
-    background-image: url(Photos/marvel-spider-man-logo-wallpaper.jpg);
+    background-image: url(./Photos/marvel-spider-man-logo-wallpaper.jpg);
     background-position: top;
     height: 350px;
     transition: 1s;
 }
 
 #img-3{
-    background-image: url(Photos/marvel-iron-man-action-wallpaper.jpg);
+    background-image: url(./Photos/marvel-iron-man-action-wallpaper.jpg);
     background-position: top;
     transition: 1s;
 }
 
 #img-4{
-    background-image: url(Photos/marvel-angry-hulk-purple-wallpaper.jpg);
+    background-image: url(./Photos/marvel-angry-hulk-purple-wallpaper.jpg);
     background-position: top;
     transition: 1s;
 }
