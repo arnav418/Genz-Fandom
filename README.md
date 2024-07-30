@@ -20,4 +20,6 @@ A simple project demonstrating card animations with a duration of 2 seconds.
 3. Open `index.html` in your browser to view the project.
 
 ## ScreenShot
+![Alt text](Photos/ScreenShot.png)
+
 
