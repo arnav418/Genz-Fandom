@@ -19,3 +19,6 @@ A simple project demonstrating card animations with a duration of 2 seconds.
     cd Marvel-Cards
     ```
 3. Open `index.html` in your browser to view the project.
+
+## ScreenShot
+
