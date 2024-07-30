@@ -5,7 +5,6 @@ A simple project demonstrating card animations with a duration of 2 seconds.
 ## Features
 
 - Cards with 2-second animations
-- Responsive design
 - Easy to customize
 
 ## Installation
