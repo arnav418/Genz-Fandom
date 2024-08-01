@@ -55,6 +55,12 @@
     font-size: 25px;
 }
 
+span{
+    background-color: red;
+    padding: 2px;
+    border-radius: 5px;
+}
+
 .content p{
     color: white;
     margin-top: 10px;
