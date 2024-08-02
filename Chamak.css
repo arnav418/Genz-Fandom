@@ -190,11 +190,11 @@
 }
 
 .seperator {
-  height: 10px;
+  height: 6px;
   background-color: black;
-  border-radius: 50px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  /* border-radius: 50px; */
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
 }
 
 /* DC Section Starts here */
@@ -419,6 +419,7 @@ footer {
   height: 300px;
   width: 100%;
   background-color: #6482AD;
+  padding: 1px 210px;
   display: flex;
   justify-content: space-evenly;
   color: white;
@@ -426,7 +427,7 @@ footer {
 }
 
 .name h3{
-  color: #FFDA76;
+  color: yellow;
 }
 
 
@@ -477,8 +478,67 @@ footer {
   border: none;
 }
 
+#foot-2{
+  /* background-color: red; */
+  width:160xpx;
+  display: flex;
+  flex-direction: column;
+  height: 270px;
+  padding: 5px 10px;
+}
+
+#foot-2 h4{
+  font-weight: bolder;
+}
+
+
+.foot-links {
+  text-decoration: none;
+  color: yellow;
+}
+
+.foot-links:hover{
+  color: white;
+}
+
+#foot-3{
+  /* background-color: green; */
+  width: 179px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  line-height: 25px;
+}
+
+#foot-3 h4{
+  font-weight:700;
+}
+
+.foot3-links{
+  text-decoration: none;
+  color: yellow;
+}
+
+.foot3-links:hover{
+  color: white;
+
+}
+
+#foot-4{
+  display: flex;
+  flex-direction: column;
+  /* background-color: orange; */
+  width: 150px;
+  line-height: 36px;
+}
+#foot-4 img{
+  margin-top: 5px;
+  margin-left: 9px;
+}
+
+
 .copyright {
-  height: 60px;
+  height: 50px;
   display: grid;
   width: 100%;
   background-color: black;
