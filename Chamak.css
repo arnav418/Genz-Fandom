@@ -16,7 +16,9 @@
   /* margin-left: 30%; */
   display: flex;
   justify-content: space-around;
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
 .navbar h1 {
@@ -25,7 +27,7 @@
 }
 
 .nav-links{
-    width: 80vh;
+    /* width: 80vw; */
     height: 30px;
     color: white;
 }
@@ -46,6 +48,7 @@
 .start-head {
   padding: 10px 10px;
   background-color: #dca47c;
+  margin-top:40px ;
 }
 
 .start-head .logo {
@@ -415,11 +418,72 @@ footer {
 .foot{
   height: 300px;
   width: 100%;
-  background-color: brown;
+  background-color: #6482AD;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  align-items: center;
+}
+
+.name h3{
+  color: #FFDA76;
+}
+
+
+
+
+.sec-1{
+  height: 230px;
+  /* background-color: white; */
+  width: 270px;
+  /* border: 2px solid black; */
+  /* align-items: center; */
+  
+}
+
+/* Foot section  */
+
+#foot-1{
+  line-height: 30px;
+  /* background-color: black; */
+  width:450px ;
+  padding: 12px 12px;
+}
+
+#foot-1 h4{
+  margin-top: 10px;
+}
+
+#foot-1 input{
+  font-size: 17px;
+  padding: 2px 9px;
+  width: 250px;
+  border-radius: 8px;
+  height: 40px;
+  outline: none;
+  margin-top:3px ;
+  /* background: transparent; */
+  /* color: white; */
+  border: none;
+}
+
+#foot-1 button{
+  height: 40px;
+  font-size: 14px;
+  font-weight: bolder;
+  border-radius: 8px;
+  padding: 2px 4px;
+  outline: none;
+  border: none;
 }
 
 .copyright {
   height: 60px;
+  display: grid;
   width: 100%;
   background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
 }
