@@ -9,15 +9,18 @@
 
 .navbar {
   height: 50px;
-  background-color: black;
+  background-color: rgb(44, 22, 22);
   color: white;
   align-items: center;
+  width: 100%;
+  /* margin-left: 30%; */
   display: flex;
   justify-content: space-around;
+  /* position: fixed; */
 }
 
 .navbar h1 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   align-items: center;
 }
 
@@ -399,4 +402,24 @@
   transition: 1s;
   height: 400px;
   border-color: #c1c1c1;
+}
+
+/* footer section starts here */
+
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: aqua;
+}
+
+.foot{
+  height: 300px;
+  width: 100%;
+  background-color: brown;
+}
+
+.copyright {
+  height: 60px;
+  width: 100%;
+  background-color: black;
 }
